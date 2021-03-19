@@ -33,5 +33,4 @@ jobs:
         uses: actions/setup-node@v2.1.5
       - run: |
           yarn --pure-lockfile
-          yarn run build
-          yarn run test
+
